@@ -63,7 +63,7 @@ export async function updateFollowedUserFollowers(
     .collection("users")
     .doc(profileDocId)
     .update({
-      followers: isFollowingProfilex
+      followers: isFollowingProfile
         ? FieldValue.arrayRemove(loggedInUserDocId)
         : FieldValue.arrayUnion(loggedInUserDocId),
     });

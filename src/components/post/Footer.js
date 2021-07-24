@@ -1,6 +1,5 @@
-import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const Footer = ({ caption, username }) => (
   <div className="p-4 pt-2 pb-0">
